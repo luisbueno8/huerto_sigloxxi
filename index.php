@@ -135,6 +135,8 @@ switch ($command) {
      case 'Cesar':
      case 'cesar':
        case 'césar':
+         $response="Vas por el buen camino compañero, a este ritmo cambiarán el nombre del IES Tetuán de las Victorias a IES ".$firstname."";  
+       sendMessage($chatId, $response);
    echo exec ($julio);
        sleep (5);
   
