@@ -43,7 +43,7 @@ $apellido=$_REQUEST['apellido'];
 
 //Luego sobrescribo el txt
 
-$archivo="datos.txt";
+$archivo="https://luisbueno8.github.io/huerto_sigloxxi/datos.txt";
 
      $file=fopen($archivo,"w");
      fwrite($file,$nombre,$apellido);
